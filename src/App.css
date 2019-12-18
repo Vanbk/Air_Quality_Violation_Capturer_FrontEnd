@@ -28,6 +28,7 @@
     }
 .row-style {
   height: 1500px;
+  background-color: #282c34;
 }
 
 .row-style1{
@@ -41,7 +42,7 @@
 .left-header{
   color: white;
   text-align: center;
-  background-color: gray;
+  background-color: rgb(10, 240, 228);
   border-radius: 10px;
   height: 70px;
 }
@@ -50,15 +51,98 @@
   text-align: center;
 }
 
+.image-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+}
+
 .data-board{
   width: 250px;
   height: 220px;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #282c34;
 }
 
 .image-data-board{
   width: 500px;
   height: 500px
+}
+
+
+
+.chart-shape{
+  width: 1000px;
+  height: 1000px;
+}
+
+.button {
+  width: 130px;
+  height:130px;
+  padding: 20px;
+  border-radius: 50%;
+  border:5px solid #cfdcec;
+  overflow:hidden;
+  background-color: #4679BD; 
+  box-shadow: 0 0 3px gray;
+
+  text-align:center;
+  color:#e2eaf3;
+  font-family:Verdana;
+  font-size:2em;
+  font-weight:bold;
+  text-decoration:none;
+
+  margin-left: 60px;
+    
+}
+
+.control-board{
+  width: 250px;
+  height: 440px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #282c34;
+}
+.information-board{
+  width: 200px;
+  height: 680px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  background-color: #282c34;
+}
+
+
+.line-length{
+  line-height: 200px;
+}
+
+.white-text{
+  color: white;
+}
+
+.button-center{
+  width: 170px;
+  background-color: #4679BD; 
+  margin-left: 15px;
+}
+
+.list-info{
+  width: 170px;
+  margin-left: 15px;
+
+}
+.record-button{
+  width: 160;
+  margin-left: 15px;
+}
+
+.text-left{
+  margin-right: 0;
 }
